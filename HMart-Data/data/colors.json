@@ -1,0 +1,79 @@
+[
+    {
+        "_id": {
+            "$oid": "6549024eb87aac9ca3dab089"
+        },
+        "title": "Pink",
+        "color": "Hồng"
+    },
+    {
+        "_id": {
+            "$oid": "65490236b87aac9ca3dab085"
+        },
+        "title": "Black",
+        "color": "Đen"
+    },
+    {
+        "_id": {
+            "$oid": "654909abb87aac9ca3dab1a6"
+        },
+        "title": "Gray",
+        "color": "Xám"
+    },
+    {
+        "_id": {
+            "$oid": "65490bcab87aac9ca3dab261"
+        },
+        "title": "Purple",
+        "color": "Tím"
+    },
+    {
+        "_id": {
+            "$oid": "654a3772ae75adf790accd97"
+        },
+        "title": "Orange",
+        "color": "Cam"
+    },
+    {
+        "_id": {
+            "$oid": "65490230b87aac9ca3dab081"
+        },
+        "title": "Blue",
+        "color": "Xanh Dương"
+    },
+    {
+        "_id": {
+            "$oid": "65490257b87aac9ca3dab091"
+        },
+        "title": "Green",
+        "color": "Xanh Lá"
+    },
+    {
+        "_id": {
+            "$oid": "65490960b87aac9ca3dab199"
+        },
+        "title": "White",
+        "color": "Trắng"
+    },
+    {
+        "_id": {
+            "$oid": "65490dadb87aac9ca3dab30d"
+        },
+        "title": "Silver",
+        "color": "Bạc"
+    },
+    {
+        "_id": {
+            "$oid": "65490252b87aac9ca3dab08d"
+        },
+        "title": "Yellow",
+        "color": "Vàng"
+    },
+    {
+        "_id": {
+            "$oid": "65490ba5b87aac9ca3dab25d"
+        },
+        "title": "Red",
+        "color": "Đỏ"
+    }
+]

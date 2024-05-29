@@ -1,0 +1,50 @@
+[
+    {
+        "_id": {
+            "$oid": "653631f08904da65a71d5e55"
+        },
+        "title": "Accessories"
+    },
+    {
+        "_id": {
+            "$oid": "653631f68904da65a71d5e59"
+        },
+        "title": "Cameras"
+    },
+    {
+        "_id": {
+            "$oid": "653631ff8904da65a71d5e61"
+        },
+        "title": "Headphones"
+    },
+    {
+        "_id": {
+            "$oid": "653632048904da65a71d5e65"
+        },
+        "title": "Tablets"
+    },
+    {
+        "_id": {
+            "$oid": "653632098904da65a71d5e69"
+        },
+        "title": "SmartPhones"
+    },
+    {
+        "_id": {
+            "$oid": "653632178904da65a71d5e71"
+        },
+        "title": "Speakers"
+    },
+    {
+        "_id": {
+            "$oid": "653631fb8904da65a71d5e5d"
+        },
+        "title": "Laptops"
+    },
+    {
+        "_id": {
+            "$oid": "6536320e8904da65a71d5e6d"
+        },
+        "title": "SmartWatches"
+    }
+]

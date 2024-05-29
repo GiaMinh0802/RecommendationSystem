@@ -1,0 +1,11 @@
+Mô tả collection
+- Address: được thu thập từ danh sách tỉnh thành quận huyện Việt Nam
+- Brands, Categories, Colors: tự tạo để phân loại sản phẩm
+- Products: được crawl từ website của Cellphones
+- Users: tạo random 5000 thông tin người dùng
++ Chia 5000 người dùng thành 5 nhóm mỗi nhóm có 1000 người dùng theo 5 brands chính gồm: Apple, Samsung, Xiaomi, Sony, JBL (còn nhiều brand khác nhưng số lượng sản phẩm không nhiều để chia thành 1 nhóm)
+- Views, Wishlists, Ratings, Orders, Carts: các collection này được tạo random từ các collection ở trên
++ Mỗi người dùng sẽ thêm vào danh sách yêu thích (Wishlist), thêm vào giỏ hàng (Cart), đánh giá (Rating), đặt hàng (Order)
+* Đặt hàng, đánh giá 20-25 sản phẩm của brands yêu thích (nhóm người dùng Apple tương tác sản phảm của Apple)
+* Thêm vào danh sách yêu thích, thêm vào giỏ hàng 10-15 sản phẩm còn lại của brands yêu thích
+* Đặt hàng, đánh giá 5-10 sản phẩm của brands không yêu thích (nhóm người dùng Apple tương tác sản phảm của Samsung, Xiaomi,...)
