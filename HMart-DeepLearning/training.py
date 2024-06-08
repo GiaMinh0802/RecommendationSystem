@@ -12,6 +12,7 @@ from model.ncf import NeutralColabFilteringNet, DatasetBatchIterator, precision_
 from model.cdl import CustomModel, recommend_products
 import time
 import copy
+import certifi
 from sklearn.metrics import accuracy_score, f1_score
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.layers import Input, Embedding, Flatten, Dot, Dense
@@ -27,7 +28,7 @@ def get_evaluate(path):
 
 def training_process(algorithm_type):
     connection_string = "mongodb+srv://root:GiaMinh0802@cluster0.hrfrhsi.mongodb.net/HMart_v2?retryWrites=true&w=majority"
-    client = MongoClient(connection_string)
+    client = MongoClient(connection_string, tlsCAFile=certifi.where())
     db = client.HMart_v2
 
     list_rating = []

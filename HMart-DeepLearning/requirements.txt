@@ -1,7 +1,8 @@
 pymongo
 torch
 pandas
-sklearn
+tensorflow
+scikit-learn
 numpy
 keras
 flask
