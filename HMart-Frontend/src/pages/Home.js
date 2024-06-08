@@ -175,7 +175,7 @@ const Home = () => {
           <Container class1='featured-wrapper py-5 home-wrapper-2'>
             <div className="row">
               <div className="col-12">
-                <h3 className="section-heading">For You</h3>
+                <h3 className="section-heading">Dành Cho Bạn</h3>
               </div>
               <div className="row">
                 {
@@ -264,7 +264,7 @@ const Home = () => {
       <Container class1='popular-wrapper py-5 home-wrapper-2'>
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading">New Products</h3>
+            <h3 className="section-heading">Sản Phẩm Mới</h3>
           </div>
           <div className="row">
             {
