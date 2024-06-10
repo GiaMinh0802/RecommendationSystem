@@ -85,20 +85,18 @@ Lúc này Frontend của người dùng sẽ được chạy ở http://localhos
 ```
 
 - Khởi động Frontend với port 3001
-
-```cmd
-  npm run start-win
-```
-
-```cmd
-  npm run start-linux
-```
+  - Đối với Windows
+    ```cmd
+      npm run start-win
+    ```
+  - Đối với Linux, Ubuntu và MacOS
+    ```cmd
+      npm run start-linux
+    ```
 
 Lúc này Frontend của quản trị viên sẽ được chạy ở http://localhost:3001
 
 ## 5. Một vài user để test chức năng
-
-- Một sài user để thử:  
   
   - user0001@gmail.com|123 (User Apple)
 
