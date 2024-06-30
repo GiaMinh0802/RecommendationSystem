@@ -98,14 +98,14 @@ Lúc này Frontend của quản trị viên sẽ được chạy ở http://loca
 
 ## 5. Một vài user để test chức năng
   
-  - user0001@gmail.com|123 (User Apple)
+  - quoctuan@gmail.com|123 (User Apple)
 
-  - user1314@gmail.com|123 (User Samsung)
+  - hoangminh@gmail.com|123 (User Samsung)
 
-  - user2281@gmail.com|123 (User Xiaomi)
+  - hoainguyen@gmail.com|123 (User Xiaomi)
  
-  - user3389@gmail.com|123 (User Sony)
+  - xuanbach@gmail.com|123 (User Sony)
  
-  - user4280@gmail.com|123 (User JBL)
+  - hoangluong@gmail.com|123 (User JBL)
 
   - vogiaminh0802@gmail.com|123 (Admin)
