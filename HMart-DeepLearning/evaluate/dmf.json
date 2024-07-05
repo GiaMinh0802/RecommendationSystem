@@ -1,1 +1,1 @@
-{"Deep Matrix Factorization": {"RMSE": 0.828, "MAE": 0.7, "R2": 0.603, "Precision": 0.667, "Recall": 0.876, "Accuracy": 0.719, "F1": 0.757}}
+{"Deep Matrix Factorization": {"RMSE": 0.801, "MAE": 0.683, "R2": 0.631, "Precision": 0.669, "Recall": 0.939, "Accuracy": 0.737, "F1": 0.782}}

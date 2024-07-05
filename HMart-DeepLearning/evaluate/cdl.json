@@ -1,1 +1,1 @@
-{"Custom Deep Learning": {"RMSE": 0.924, "MAE": 0.754, "R2": 0.506, "Precision": 0.65, "Recall": 0.858, "Accuracy": 0.698, "F1": 0.739}}
+{"Custom Deep Learning": {"RMSE": 0.901, "MAE": 0.735, "R2": 0.533, "Precision": 0.646, "Recall": 0.965, "Accuracy": 0.718, "F1": 0.774}}
