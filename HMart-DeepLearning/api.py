@@ -79,13 +79,13 @@ def start_training():
     with open('data/result.json', 'w', encoding='utf-8') as file:
         file.write(formatted_json)
 
-    # total_run_time_start = time.time()
-    # print("start training dmf")
-    # dmf_start_time = time.time()
-    # training_process("dmf")
-    # dmf_end_time = time.time()
-    # print("DMF done")
-    # print("Execution time for DMF: {} seconds".format(dmf_end_time - dmf_start_time))
+    total_run_time_start = time.time()
+    print("start training dmf")
+    dmf_start_time = time.time()
+    training_process("dmf")
+    dmf_end_time = time.time()
+    print("DMF done")
+    print("Execution time for DMF: {} seconds".format(dmf_end_time - dmf_start_time))
 
     print("start training cdl")
     cdl_start_time = time.time()
@@ -94,12 +94,12 @@ def start_training():
     print("CDL done")
     print("Execution time for CDL: {} seconds".format(cdl_end_time - cdl_start_time))
 
-    # print("start training ncf")
-    # ncf_start_time = time.time()
-    # training_process("ncf")
-    # ncf_end_time = time.time()
-    # print("NCF done")
-    # print("Execution time for NCF: {} seconds".format(ncf_end_time - ncf_start_time))
+    print("start training ncf")
+    ncf_start_time = time.time()
+    training_process("ncf")
+    ncf_end_time = time.time()
+    print("NCF done")
+    print("Execution time for NCF: {} seconds".format(ncf_end_time - ncf_start_time))
 
     CDL_FILE_PATH = 'evaluate/cdl.json'
     cdl = get_evaluate(CDL_FILE_PATH)
@@ -123,8 +123,8 @@ def start_training():
     with open('data/result.json', 'w', encoding='utf-8') as file:
         file.write(formatted_json)
     
-    # total_run_time_end = time.time()
-    # print("Execution time: {} seconds".format(total_run_time_end - total_run_time_start))
+    total_run_time_end = time.time()
+    print("Execution time: {} seconds".format(total_run_time_end - total_run_time_start))
     return jsonify(result)
 
 if __name__ == '__main__':
