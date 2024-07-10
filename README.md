@@ -109,3 +109,14 @@ Lúc này Frontend của quản trị viên sẽ được chạy ở http://loca
   - hoangluong@gmail.com|123 (User JBL)
 
   - vogiaminh0802@gmail.com|123 (Admin)
+
+## 6. Thẻ ảo VNPay
+  - Ngân hàng: NCB
+    
+  - Số thẻ: 9704198526191432198
+    
+  - Tên chủ thẻ: NGUYEN VAN A
+    
+  - Ngày phát hành: 07/15
+    
+  - Mật khẩu OTP: 123456
