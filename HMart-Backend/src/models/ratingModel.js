@@ -18,6 +18,6 @@ var ratingSchema = new mongoose.Schema({
     comment: {
         type: String
     }
-}, { versionKey: false })
+}, { versionKey: false, timestamps: true })
 
 module.exports = mongoose.model('Rating', ratingSchema)

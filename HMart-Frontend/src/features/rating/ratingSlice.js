@@ -53,7 +53,6 @@ export const ratingSlice = createSlice({
                 state.isLoading = false
                 state.isSuccess = true
                 state.isError = false
-                state.ratings = action.payload
             })
             .addCase(ratingProduct.rejected, (state, action) => {
                 state.isError = true

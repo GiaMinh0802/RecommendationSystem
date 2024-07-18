@@ -15,6 +15,6 @@ var wishlistSchema = new mongoose.Schema({
             }
         }
     ]
-}, { versionKey: false })
+}, { versionKey: false, timestamps: true })
 
 module.exports = mongoose.model('Wishlist', wishlistSchema)

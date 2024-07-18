@@ -7,6 +7,6 @@ var brandSchema = new mongoose.Schema({
         unique: true,
         index: true
     },
-}, { versionKey: false })
+}, { versionKey: false, timestamps: true })
 
 module.exports = mongoose.model("Brand", brandSchema)

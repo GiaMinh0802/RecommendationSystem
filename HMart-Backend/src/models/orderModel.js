@@ -76,6 +76,6 @@ var orderSchema = new mongoose.Schema({
         enum: ['COD', 'VNPAYQR', 'VNBANK', 'INTCARD'],
         required: true
     },
-}, { versionKey: false })
+}, { versionKey: false, timestamps: true })
 
 module.exports = mongoose.model('Order', orderSchema)

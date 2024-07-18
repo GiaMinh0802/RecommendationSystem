@@ -39,7 +39,7 @@ var userSchema = new mongoose.Schema({
     passwordResetToken: String,
     passwordResetExpires: Date
     
-}, { versionKey: false })
+}, { versionKey: false, timestamps: true })
 
 userSchema.pre('save', async function (next) {
     if (!this.isModified('password')) {

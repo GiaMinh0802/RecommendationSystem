@@ -6,7 +6,7 @@ const getRatingById = asyncHandler(async (req, res) => {
     const { id } = req.params
     validateID(id)
     try {
-        const ratings = await Rating.find({ 'product': id }).populate('user')
+        const ratings = await Rating.find({ 'product': id }).populate('user').sort({ createdAt: 1 })
         res.json(ratings)
     } catch (error) {
         throw new Error(error)

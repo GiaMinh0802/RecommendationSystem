@@ -77,10 +77,7 @@ const SingleProduct = () => {
             toast.error("Vui lòng chọn số sao!")
             return false
         } else {
-            dispatch(ratingProduct({ idProd: idProd, starReview, commentReview }))
-            setTimeout(() => {
-                dispatch(getProduct(idProd))
-            }, 300)
+            dispatch(ratingProduct({ idProd: idProd, star: starReview, comment: commentReview }))
         }
     }
 
@@ -244,7 +241,7 @@ const SingleProduct = () => {
                             }
                             <div className="reviews mt-4">
                                 {
-                                    ratingState && ratingState.slice(0, 10)?.map((item, index) => {
+                                    ratingState && ratingState?.slice().reverse().map((item, index) => {
                                         return (
                                             <div className="review" key={index}>
                                                 <div className="d-flex gap-10 align-items-center">
